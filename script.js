@@ -13,10 +13,10 @@ const darkMode = () => {
 
 const darktitle = () => {
     if (body.classList.length > 1) {
-        modo.textContent = 'ON'
+        modo.textContent = ' ON'
     }
     else {
-        modo.textContent = 'OFF'
+        modo.textContent = ' OFF'
     }
 }
 
